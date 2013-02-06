@@ -159,7 +159,7 @@ int setupListenServer(struct addrinfo **pAddrInfo, int pPort)
     int tFamily = AF_INET;
     #ifdef AF_INET6
     //printf("Listening on IPv6 Socket\n");
-    tFamily = AF_INET6;
+    //tFamily = AF_INET6;
     #else
     //printf("Listening on IPv4 Socket");
     #endif
